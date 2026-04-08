@@ -68,7 +68,7 @@ const Review = () => {
         </div>
         <div className='buttons'>
           <button className='prev-btn' onClick={() => handleIndex(-1)}>Previous Review</button>
-          <button className='random-btn' onClick={handleRandom}>Surprise Me</button>
+          <button className='random-btn' onClick={handleRandom}>surprise me</button>
           <button className='next-btn' onClick={() => handleIndex(1)}>Next Review</button>
         </div>
       
