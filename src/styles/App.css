@@ -1,12 +1,45 @@
-h1 {
+h1{
     color: #27aedb;
     text-align: center;
-    }
-    
-
+}
 button{
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+    border:none;
+    cursor: pointer;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    .author{
+        font-weight: bold;
+        margin-inline: 5px;
+    }
+    .job{
+        margin-inline: 5px;
+    }
+}
+.buttons{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin: 10px 20px;
+}   
+.person-img{
+    width:200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
